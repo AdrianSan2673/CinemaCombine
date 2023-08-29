@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35E8BCA2A9E48B10032DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */; };
+		D35E8BCC2A9E48B10032DE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */; };
+		D35E8BCE2A9E48B10032DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BCD2A9E48B10032DE9C /* ViewController.swift */; };
+		D35E8BD12A9E48B10032DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E8BCF2A9E48B10032DE9C /* Main.storyboard */; };
+		D35E8BD32A9E48B30032DE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35E8BD22A9E48B30032DE9C /* Assets.xcassets */; };
+		D35E8BD62A9E48B30032DE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E8BD42A9E48B30032DE9C /* LaunchScreen.storyboard */; };
+		D35E8BE12A9E48B30032DE9C /* CarteleraMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BE02A9E48B30032DE9C /* CarteleraMDBTests.swift */; };
+		D35E8BEB2A9E48B30032DE9C /* CarteleraMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BEA2A9E48B30032DE9C /* CarteleraMDBUITests.swift */; };
+		D35E8BED2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BEC2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35E8BDD2A9E48B30032DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35E8BBE2A9E48B10032DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35E8BC52A9E48B10032DE9C;
+			remoteInfo = CarteleraMDB;
+		};
+		D35E8BE72A9E48B30032DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35E8BBE2A9E48B10032DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35E8BC52A9E48B10032DE9C;
+			remoteInfo = CarteleraMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D35E8BC62A9E48B10032DE9C /* CarteleraMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarteleraMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D35E8BCD2A9E48B10032DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35E8BD02A9E48B10032DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35E8BD22A9E48B30032DE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35E8BD52A9E48B30032DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35E8BD72A9E48B30032DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E8BDC2A9E48B30032DE9C /* CarteleraMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarteleraMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E8BE02A9E48B30032DE9C /* CarteleraMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteleraMDBTests.swift; sourceTree = "<group>"; };
+		D35E8BE62A9E48B30032DE9C /* CarteleraMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarteleraMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E8BEA2A9E48B30032DE9C /* CarteleraMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteleraMDBUITests.swift; sourceTree = "<group>"; };
+		D35E8BEC2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteleraMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35E8BC32A9E48B10032DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BD92A9E48B30032DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BE32A9E48B30032DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35E8BBD2A9E48B10032DE9C = {
+			isa = PBXGroup;
+			children = (
+				D35E8BC82A9E48B10032DE9C /* CarteleraMDB */,
+				D35E8BDF2A9E48B30032DE9C /* CarteleraMDBTests */,
+				D35E8BE92A9E48B30032DE9C /* CarteleraMDBUITests */,
+				D35E8BC72A9E48B10032DE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35E8BC72A9E48B10032DE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BC62A9E48B10032DE9C /* CarteleraMDB.app */,
+				D35E8BDC2A9E48B30032DE9C /* CarteleraMDBTests.xctest */,
+				D35E8BE62A9E48B30032DE9C /* CarteleraMDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35E8BC82A9E48B10032DE9C /* CarteleraMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */,
+				D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */,
+				D35E8BCD2A9E48B10032DE9C /* ViewController.swift */,
+				D35E8BCF2A9E48B10032DE9C /* Main.storyboard */,
+				D35E8BD22A9E48B30032DE9C /* Assets.xcassets */,
+				D35E8BD42A9E48B30032DE9C /* LaunchScreen.storyboard */,
+				D35E8BD72A9E48B30032DE9C /* Info.plist */,
+			);
+			path = CarteleraMDB;
+			sourceTree = "<group>";
+		};
+		D35E8BDF2A9E48B30032DE9C /* CarteleraMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BE02A9E48B30032DE9C /* CarteleraMDBTests.swift */,
+			);
+			path = CarteleraMDBTests;
+			sourceTree = "<group>";
+		};
+		D35E8BE92A9E48B30032DE9C /* CarteleraMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BEA2A9E48B30032DE9C /* CarteleraMDBUITests.swift */,
+				D35E8BEC2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift */,
+			);
+			path = CarteleraMDBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35E8BC52A9E48B10032DE9C /* CarteleraMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E8BF02A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDB" */;
+			buildPhases = (
+				D35E8BC22A9E48B10032DE9C /* Sources */,
+				D35E8BC32A9E48B10032DE9C /* Frameworks */,
+				D35E8BC42A9E48B10032DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarteleraMDB;
+			productName = CarteleraMDB;
+			productReference = D35E8BC62A9E48B10032DE9C /* CarteleraMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35E8BDB2A9E48B30032DE9C /* CarteleraMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E8BF32A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBTests" */;
+			buildPhases = (
+				D35E8BD82A9E48B30032DE9C /* Sources */,
+				D35E8BD92A9E48B30032DE9C /* Frameworks */,
+				D35E8BDA2A9E48B30032DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35E8BDE2A9E48B30032DE9C /* PBXTargetDependency */,
+			);
+			name = CarteleraMDBTests;
+			productName = CarteleraMDBTests;
+			productReference = D35E8BDC2A9E48B30032DE9C /* CarteleraMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35E8BE52A9E48B30032DE9C /* CarteleraMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E8BF62A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBUITests" */;
+			buildPhases = (
+				D35E8BE22A9E48B30032DE9C /* Sources */,
+				D35E8BE32A9E48B30032DE9C /* Frameworks */,
+				D35E8BE42A9E48B30032DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35E8BE82A9E48B30032DE9C /* PBXTargetDependency */,
+			);
+			name = CarteleraMDBUITests;
+			productName = CarteleraMDBUITests;
+			productReference = D35E8BE62A9E48B30032DE9C /* CarteleraMDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35E8BBE2A9E48B10032DE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D35E8BC52A9E48B10032DE9C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D35E8BDB2A9E48B30032DE9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D35E8BC52A9E48B10032DE9C;
+					};
+					D35E8BE52A9E48B30032DE9C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D35E8BC52A9E48B10032DE9C;
+					};
+				};
+			};
+			buildConfigurationList = D35E8BC12A9E48B10032DE9C /* Build configuration list for PBXProject "CarteleraMDB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35E8BBD2A9E48B10032DE9C;
+			productRefGroup = D35E8BC72A9E48B10032DE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35E8BC52A9E48B10032DE9C /* CarteleraMDB */,
+				D35E8BDB2A9E48B30032DE9C /* CarteleraMDBTests */,
+				D35E8BE52A9E48B30032DE9C /* CarteleraMDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35E8BC42A9E48B10032DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E8BD62A9E48B30032DE9C /* LaunchScreen.storyboard in Resources */,
+				D35E8BD32A9E48B30032DE9C /* Assets.xcassets in Resources */,
+				D35E8BD12A9E48B10032DE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BDA2A9E48B30032DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BE42A9E48B30032DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35E8BC22A9E48B10032DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E8BCE2A9E48B10032DE9C /* ViewController.swift in Sources */,
+				D35E8BCA2A9E48B10032DE9C /* AppDelegate.swift in Sources */,
+				D35E8BCC2A9E48B10032DE9C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BD82A9E48B30032DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E8BE12A9E48B30032DE9C /* CarteleraMDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E8BE22A9E48B30032DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E8BED2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift in Sources */,
+				D35E8BEB2A9E48B30032DE9C /* CarteleraMDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35E8BDE2A9E48B30032DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35E8BC52A9E48B10032DE9C /* CarteleraMDB */;
+			targetProxy = D35E8BDD2A9E48B30032DE9C /* PBXContainerItemProxy */;
+		};
+		D35E8BE82A9E48B30032DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35E8BC52A9E48B10032DE9C /* CarteleraMDB */;
+			targetProxy = D35E8BE72A9E48B30032DE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35E8BCF2A9E48B10032DE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E8BD02A9E48B10032DE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35E8BD42A9E48B30032DE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E8BD52A9E48B30032DE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35E8BEE2A9E48B30032DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35E8BEF2A9E48B30032DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35E8BF12A9E48B30032DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarteleraMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35E8BF22A9E48B30032DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarteleraMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D35E8BF42A9E48B30032DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarteleraMDB.app/CarteleraMDB";
+			};
+			name = Debug;
+		};
+		D35E8BF52A9E48B30032DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarteleraMDB.app/CarteleraMDB";
+			};
+			name = Release;
+		};
+		D35E8BF72A9E48B30032DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarteleraMDB;
+			};
+			name = Debug;
+		};
+		D35E8BF82A9E48B30032DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8563359T6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdrianSmn.CarteleraMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarteleraMDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35E8BC12A9E48B10032DE9C /* Build configuration list for PBXProject "CarteleraMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E8BEE2A9E48B30032DE9C /* Debug */,
+				D35E8BEF2A9E48B30032DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E8BF02A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E8BF12A9E48B30032DE9C /* Debug */,
+				D35E8BF22A9E48B30032DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E8BF32A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E8BF42A9E48B30032DE9C /* Debug */,
+				D35E8BF52A9E48B30032DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E8BF62A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E8BF72A9E48B30032DE9C /* Debug */,
+				D35E8BF82A9E48B30032DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35E8BBE2A9E48B10032DE9C /* Project object */;
+}

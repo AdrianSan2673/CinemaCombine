@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3146EC72C20F69B0042D2B9 /* DetailMovieViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3146EC62C20F69B0042D2B9 /* DetailMovieViewDelegate.swift */; };
+		D31F70F82AA90E120013CFBB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D31F70F72AA90E120013CFBB /* FirebaseAuth */; };
+		D31F70FA2AA90E120013CFBB /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D31F70F92AA90E120013CFBB /* FirebaseAuthCombine-Community */; };
+		D31F70FC2AA90E120013CFBB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D31F70FB2AA90E120013CFBB /* FirebaseDatabase */; };
+		D31F70FE2AA90E120013CFBB /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D31F70FD2AA90E120013CFBB /* FirebaseFirestoreCombine-Community */; };
+		D31F71002AA90E120013CFBB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D31F70FF2AA90E120013CFBB /* FirebaseFirestoreSwift */; };
+		D31F71022AA90E120013CFBB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D31F71012AA90E120013CFBB /* FirebaseStorage */; };
+		D31F71042AA90E120013CFBB /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D31F71032AA90E120013CFBB /* FirebaseStorageCombine-Community */; };
+		D347535A2AFEEF3D00BF30E3 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34753592AFEEF3D00BF30E3 /* MovieListCell.swift */; };
+		D347535D2AFEF01D00BF30E3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D347535C2AFEF01D00BF30E3 /* Kingfisher */; };
+		D34796DB2AD08AA7007A54CB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34796DA2AD08AA7007A54CB /* Utils.swift */; };
+		D35739182AA63FF100C5E320 /* PopularMovieResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35739172AA63FF100C5E320 /* PopularMovieResponseEntity.swift */; };
 		D35E8BCA2A9E48B10032DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */; };
 		D35E8BCC2A9E48B10032DE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */; };
 		D35E8BCE2A9E48B10032DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BCD2A9E48B10032DE9C /* ViewController.swift */; };
@@ -16,6 +28,23 @@
 		D35E8BE12A9E48B30032DE9C /* CarteleraMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BE02A9E48B30032DE9C /* CarteleraMDBTests.swift */; };
 		D35E8BEB2A9E48B30032DE9C /* CarteleraMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BEA2A9E48B30032DE9C /* CarteleraMDBUITests.swift */; };
 		D35E8BED2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BEC2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift */; };
+		D35E8BFB2A9E55CB0032DE9C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BFA2A9E55CB0032DE9C /* LoginViewModel.swift */; };
+		D35E8BFE2A9E5B8F0032DE9C /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BFD2A9E5B8F0032DE9C /* ApiClient.swift */; };
+		D35E8C002A9E5B9E0032DE9C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E8BFF2A9E5B9E0032DE9C /* User.swift */; };
+		D35E8C022A9E78A10032DE9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D35E8C012A9E78A10032DE9C /* GoogleService-Info.plist */; };
+		D38B41CB2BB89B3D00758B0C /* DetailMovie+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B41CA2BB89B3D00758B0C /* DetailMovie+UI.swift */; };
+		D38ED5422AC5DCAC00335B73 /* MovieListCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38ED5412AC5DCAC00335B73 /* MovieListCombineViewModel.swift */; };
+		D38ED5442AC5DD0200335B73 /* MovieListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38ED5432AC5DD0200335B73 /* MovieListNetwork.swift */; };
+		D390CE462AC35DAC001F6111 /* MovieListCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390CE452AC35DAC001F6111 /* MovieListCombineView.swift */; };
+		D39D65462BB8DE90007BBD0B /* DetailMovilNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39D65452BB8DE90007BBD0B /* DetailMovilNetwork.swift */; };
+		D39DB6BE2AA260C9003D5076 /* CustomMultimediaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39DB6BD2AA260C9003D5076 /* CustomMultimediaEntity.swift */; };
+		D3D328D82C221F2700346346 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D328D72C221F2700346346 /* Configuration.swift */; };
+		D3E55DD92B17BC5A002F9611 /* DetailMovieCombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55DD82B17BC5A002F9611 /* DetailMovieCombineView.swift */; };
+		D3E55DDB2B17BE19002F9611 /* DetailMovieCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E55DDA2B17BE19002F9611 /* DetailMovieCombineViewModel.swift */; };
+		D3EAA42A2C1110E100DAAFEB /* MovieListCombineView+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAA4292C1110E100DAAFEB /* MovieListCombineView+UI.swift */; };
+		D3EAA42C2C11219300DAAFEB /* MovieListViewCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAA42B2C11219300DAAFEB /* MovieListViewCollectionDelegate.swift */; };
+		D3EAA42F2C1125BC00DAAFEB /* UILoadingModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAA42E2C1125BC00DAAFEB /* UILoadingModalViewController.swift */; };
+		D3F4CFD12C12859200509BEB /* GenderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4CFD02C12859200509BEB /* GenderViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8C8E6C51D57FB380E419E3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10D59E713D6075BFE23F9BBD /* Pods-CarteleraMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDBTests.debug.xcconfig"; path = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33AEF0ED834E26A0723797FB /* Pods-CarteleraMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDB.release.xcconfig"; path = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB.release.xcconfig"; sourceTree = "<group>"; };
+		4F955AD2CC20954BA8DCF50F /* Pods-CarteleraMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDBTests.release.xcconfig"; path = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		B77A2C11A6B39A8AA4EA54A1 /* Pods-CarteleraMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDB.debug.xcconfig"; path = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		D3146EC62C20F69B0042D2B9 /* DetailMovieViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewDelegate.swift; sourceTree = "<group>"; };
+		D34753592AFEEF3D00BF30E3 /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
+		D34796DA2AD08AA7007A54CB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D35739172AA63FF100C5E320 /* PopularMovieResponseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieResponseEntity.swift; sourceTree = "<group>"; };
 		D35E8BC62A9E48B10032DE9C /* CarteleraMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarteleraMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +87,24 @@
 		D35E8BE62A9E48B30032DE9C /* CarteleraMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarteleraMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35E8BEA2A9E48B30032DE9C /* CarteleraMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteleraMDBUITests.swift; sourceTree = "<group>"; };
 		D35E8BEC2A9E48B30032DE9C /* CarteleraMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteleraMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D35E8BFA2A9E55CB0032DE9C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D35E8BFD2A9E5B8F0032DE9C /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D35E8BFF2A9E5B9E0032DE9C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D35E8C012A9E78A10032DE9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D38B41CA2BB89B3D00758B0C /* DetailMovie+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailMovie+UI.swift"; sourceTree = "<group>"; };
+		D38ED5412AC5DCAC00335B73 /* MovieListCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCombineViewModel.swift; sourceTree = "<group>"; };
+		D38ED5432AC5DD0200335B73 /* MovieListNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListNetwork.swift; sourceTree = "<group>"; };
+		D390CE452AC35DAC001F6111 /* MovieListCombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCombineView.swift; sourceTree = "<group>"; };
+		D39D65452BB8DE90007BBD0B /* DetailMovilNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovilNetwork.swift; sourceTree = "<group>"; };
+		D39DB6BD2AA260C9003D5076 /* CustomMultimediaEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMultimediaEntity.swift; sourceTree = "<group>"; };
+		D3D328D72C221F2700346346 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		D3E55DD82B17BC5A002F9611 /* DetailMovieCombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieCombineView.swift; sourceTree = "<group>"; };
+		D3E55DDA2B17BE19002F9611 /* DetailMovieCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieCombineViewModel.swift; sourceTree = "<group>"; };
+		D3EAA4292C1110E100DAAFEB /* MovieListCombineView+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieListCombineView+UI.swift"; sourceTree = "<group>"; };
+		D3EAA42B2C11219300DAAFEB /* MovieListViewCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewCollectionDelegate.swift; sourceTree = "<group>"; };
+		D3EAA42E2C1125BC00DAAFEB /* UILoadingModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoadingModalViewController.swift; sourceTree = "<group>"; };
+		D3F4CFD02C12859200509BEB /* GenderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewCell.swift; sourceTree = "<group>"; };
+		E45FB536D37370EA502CC026 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig"; path = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31F71002AA90E120013CFBB /* FirebaseFirestoreSwift in Frameworks */,
+				D31F71042AA90E120013CFBB /* FirebaseStorageCombine-Community in Frameworks */,
+				D31F70FC2AA90E120013CFBB /* FirebaseDatabase in Frameworks */,
+				D31F70FE2AA90E120013CFBB /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D347535D2AFEF01D00BF30E3 /* Kingfisher in Frameworks */,
+				D31F70F82AA90E120013CFBB /* FirebaseAuth in Frameworks */,
+				D31F70FA2AA90E120013CFBB /* FirebaseAuthCombine-Community in Frameworks */,
+				D31F71022AA90E120013CFBB /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +140,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88EF43DA79C9552DEAF4481E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D5D5F09C01D83EC22AC80D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B77A2C11A6B39A8AA4EA54A1 /* Pods-CarteleraMDB.debug.xcconfig */,
+				33AEF0ED834E26A0723797FB /* Pods-CarteleraMDB.release.xcconfig */,
+				0A8C8E6C51D57FB380E419E3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */,
+				E45FB536D37370EA502CC026 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */,
+				10D59E713D6075BFE23F9BBD /* Pods-CarteleraMDBTests.debug.xcconfig */,
+				4F955AD2CC20954BA8DCF50F /* Pods-CarteleraMDBTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3146EC52C20F61F0042D2B9 /* DetailMovieView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E55DD82B17BC5A002F9611 /* DetailMovieCombineView.swift */,
+				D38B41CA2BB89B3D00758B0C /* DetailMovie+UI.swift */,
+				D3146EC62C20F69B0042D2B9 /* DetailMovieViewDelegate.swift */,
+			);
+			path = DetailMovieView;
+			sourceTree = "<group>";
+		};
+		D31F3FB02B17B7D90087AFA0 /* DetailMovie */ = {
+			isa = PBXGroup;
+			children = (
+				D3146EC52C20F61F0042D2B9 /* DetailMovieView */,
+				D3E55DDA2B17BE19002F9611 /* DetailMovieCombineViewModel.swift */,
+				D39D65452BB8DE90007BBD0B /* DetailMovilNetwork.swift */,
+				D3F4CFD02C12859200509BEB /* GenderViewCell.swift */,
+			);
+			path = DetailMovie;
+			sourceTree = "<group>";
+		};
 		D35E8BBD2A9E48B10032DE9C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +188,8 @@
 				D35E8BDF2A9E48B30032DE9C /* CarteleraMDBTests */,
 				D35E8BE92A9E48B30032DE9C /* CarteleraMDBUITests */,
 				D35E8BC72A9E48B10032DE9C /* Products */,
+				A2D5D5F09C01D83EC22AC80D /* Pods */,
+				88EF43DA79C9552DEAF4481E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +206,18 @@
 		D35E8BC82A9E48B10032DE9C /* CarteleraMDB */ = {
 			isa = PBXGroup;
 			children = (
+				D3EAA42D2C11256000DAAFEB /* UIGenericsComponents */,
+				D31F3FB02B17B7D90087AFA0 /* DetailMovie */,
+				D390CE442AC35D4F001F6111 /* MovieListCombine */,
+				D35E8BF92A9E559F0032DE9C /* Login */,
 				D35E8BC92A9E48B10032DE9C /* AppDelegate.swift */,
 				D35E8BCB2A9E48B10032DE9C /* SceneDelegate.swift */,
-				D35E8BCD2A9E48B10032DE9C /* ViewController.swift */,
 				D35E8BCF2A9E48B10032DE9C /* Main.storyboard */,
 				D35E8BD22A9E48B30032DE9C /* Assets.xcassets */,
 				D35E8BD42A9E48B30032DE9C /* LaunchScreen.storyboard */,
 				D35E8BD72A9E48B30032DE9C /* Info.plist */,
+				D35E8C012A9E78A10032DE9C /* GoogleService-Info.plist */,
+				D3D328D72C221F2700346346 /* Configuration.swift */,
 			);
 			path = CarteleraMDB;
 			sourceTree = "<group>";
@@ -127,6 +239,65 @@
 			path = CarteleraMDBUITests;
 			sourceTree = "<group>";
 		};
+		D35E8BF92A9E559F0032DE9C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BFC2A9E5B7A0032DE9C /* Model */,
+				D35E8BCD2A9E48B10032DE9C /* ViewController.swift */,
+				D35E8BFA2A9E55CB0032DE9C /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D35E8BFC2A9E5B7A0032DE9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35E8BFD2A9E5B8F0032DE9C /* ApiClient.swift */,
+				D35E8BFF2A9E5B9E0032DE9C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D390CE442AC35D4F001F6111 /* MovieListCombine */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAA4282C1110A000DAAFEB /* MovieListView */,
+				D3EAA4272C110FEA00DAAFEB /* MovieListEntity */,
+				D38ED5412AC5DCAC00335B73 /* MovieListCombineViewModel.swift */,
+				D38ED5432AC5DD0200335B73 /* MovieListNetwork.swift */,
+				D34796DA2AD08AA7007A54CB /* Utils.swift */,
+				D34753592AFEEF3D00BF30E3 /* MovieListCell.swift */,
+			);
+			path = MovieListCombine;
+			sourceTree = "<group>";
+		};
+		D3EAA4272C110FEA00DAAFEB /* MovieListEntity */ = {
+			isa = PBXGroup;
+			children = (
+				D35739172AA63FF100C5E320 /* PopularMovieResponseEntity.swift */,
+				D39DB6BD2AA260C9003D5076 /* CustomMultimediaEntity.swift */,
+			);
+			path = MovieListEntity;
+			sourceTree = "<group>";
+		};
+		D3EAA4282C1110A000DAAFEB /* MovieListView */ = {
+			isa = PBXGroup;
+			children = (
+				D390CE452AC35DAC001F6111 /* MovieListCombineView.swift */,
+				D3EAA4292C1110E100DAAFEB /* MovieListCombineView+UI.swift */,
+				D3EAA42B2C11219300DAAFEB /* MovieListViewCollectionDelegate.swift */,
+			);
+			path = MovieListView;
+			sourceTree = "<group>";
+		};
+		D3EAA42D2C11256000DAAFEB /* UIGenericsComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAA42E2C1125BC00DAAFEB /* UILoadingModalViewController.swift */,
+			);
+			path = UIGenericsComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35E8BF02A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDB" */;
 			buildPhases = (
+				78D4A445AD26DE65575510A6 /* [CP] Check Pods Manifest.lock */,
 				D35E8BC22A9E48B10032DE9C /* Sources */,
 				D35E8BC32A9E48B10032DE9C /* Frameworks */,
 				D35E8BC42A9E48B10032DE9C /* Resources */,
@@ -143,6 +315,16 @@
 			dependencies = (
 			);
 			name = CarteleraMDB;
+			packageProductDependencies = (
+				D31F70F72AA90E120013CFBB /* FirebaseAuth */,
+				D31F70F92AA90E120013CFBB /* FirebaseAuthCombine-Community */,
+				D31F70FB2AA90E120013CFBB /* FirebaseDatabase */,
+				D31F70FD2AA90E120013CFBB /* FirebaseFirestoreCombine-Community */,
+				D31F70FF2AA90E120013CFBB /* FirebaseFirestoreSwift */,
+				D31F71012AA90E120013CFBB /* FirebaseStorage */,
+				D31F71032AA90E120013CFBB /* FirebaseStorageCombine-Community */,
+				D347535C2AFEF01D00BF30E3 /* Kingfisher */,
+			);
 			productName = CarteleraMDB;
 			productReference = D35E8BC62A9E48B10032DE9C /* CarteleraMDB.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35E8BF32A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBTests" */;
 			buildPhases = (
+				23BC1DA1251D31BA7C612160 /* [CP] Check Pods Manifest.lock */,
 				D35E8BD82A9E48B30032DE9C /* Sources */,
 				D35E8BD92A9E48B30032DE9C /* Frameworks */,
 				D35E8BDA2A9E48B30032DE9C /* Resources */,
@@ -169,6 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35E8BF62A9E48B30032DE9C /* Build configuration list for PBXNativeTarget "CarteleraMDBUITests" */;
 			buildPhases = (
+				72107C76B0BC87AA6E5BF62C /* [CP] Check Pods Manifest.lock */,
 				D35E8BE22A9E48B30032DE9C /* Sources */,
 				D35E8BE32A9E48B30032DE9C /* Frameworks */,
 				D35E8BE42A9E48B30032DE9C /* Resources */,
@@ -215,6 +399,10 @@
 				Base,
 			);
 			mainGroup = D35E8BBD2A9E48B10032DE9C;
+			packageReferences = (
+				D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D347535B2AFEF01D00BF30E3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D35E8BC72A9E48B10032DE9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35E8BD62A9E48B30032DE9C /* LaunchScreen.storyboard in Resources */,
+				D35E8C022A9E78A10032DE9C /* GoogleService-Info.plist in Resources */,
 				D35E8BD32A9E48B30032DE9C /* Assets.xcassets in Resources */,
 				D35E8BD12A9E48B10032DE9C /* Main.storyboard in Resources */,
 			);
@@ -253,14 +442,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23BC1DA1251D31BA7C612160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarteleraMDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72107C76B0BC87AA6E5BF62C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarteleraMDB-CarteleraMDBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D4A445AD26DE65575510A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarteleraMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D35E8BC22A9E48B10032DE9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35E8BFB2A9E55CB0032DE9C /* LoginViewModel.swift in Sources */,
+				D3F4CFD12C12859200509BEB /* GenderViewCell.swift in Sources */,
+				D3E55DDB2B17BE19002F9611 /* DetailMovieCombineViewModel.swift in Sources */,
 				D35E8BCE2A9E48B10032DE9C /* ViewController.swift in Sources */,
+				D35E8C002A9E5B9E0032DE9C /* User.swift in Sources */,
 				D35E8BCA2A9E48B10032DE9C /* AppDelegate.swift in Sources */,
+				D3EAA42F2C1125BC00DAAFEB /* UILoadingModalViewController.swift in Sources */,
+				D3E55DD92B17BC5A002F9611 /* DetailMovieCombineView.swift in Sources */,
+				D3EAA42C2C11219300DAAFEB /* MovieListViewCollectionDelegate.swift in Sources */,
+				D347535A2AFEEF3D00BF30E3 /* MovieListCell.swift in Sources */,
+				D38ED5442AC5DD0200335B73 /* MovieListNetwork.swift in Sources */,
+				D390CE462AC35DAC001F6111 /* MovieListCombineView.swift in Sources */,
+				D35739182AA63FF100C5E320 /* PopularMovieResponseEntity.swift in Sources */,
 				D35E8BCC2A9E48B10032DE9C /* SceneDelegate.swift in Sources */,
+				D39D65462BB8DE90007BBD0B /* DetailMovilNetwork.swift in Sources */,
+				D38B41CB2BB89B3D00758B0C /* DetailMovie+UI.swift in Sources */,
+				D34796DB2AD08AA7007A54CB /* Utils.swift in Sources */,
+				D3146EC72C20F69B0042D2B9 /* DetailMovieViewDelegate.swift in Sources */,
+				D39DB6BE2AA260C9003D5076 /* CustomMultimediaEntity.swift in Sources */,
+				D3EAA42A2C1110E100DAAFEB /* MovieListCombineView+UI.swift in Sources */,
+				D3D328D82C221F2700346346 /* Configuration.swift in Sources */,
+				D35E8BFE2A9E5B8F0032DE9C /* ApiClient.swift in Sources */,
+				D38ED5422AC5DCAC00335B73 /* MovieListCombineViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +710,7 @@
 		};
 		D35E8BF12A9E48B30032DE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77A2C11A6B39A8AA4EA54A1 /* Pods-CarteleraMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +739,7 @@
 		};
 		D35E8BF22A9E48B30032DE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AEF0ED834E26A0723797FB /* Pods-CarteleraMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +768,7 @@
 		};
 		D35E8BF42A9E48B30032DE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D59E713D6075BFE23F9BBD /* Pods-CarteleraMDBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +789,7 @@
 		};
 		D35E8BF52A9E48B30032DE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F955AD2CC20954BA8DCF50F /* Pods-CarteleraMDBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +810,7 @@
 		};
 		D35E8BF72A9E48B30032DE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8C8E6C51D57FB380E419E3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +829,7 @@
 		};
 		D35E8BF82A9E48B30032DE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45FB536D37370EA502CC026 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +886,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D347535B2AFEF01D00BF30E3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D31F70F72AA90E120013CFBB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D31F70F92AA90E120013CFBB /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		D31F70FB2AA90E120013CFBB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D31F70FD2AA90E120013CFBB /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		D31F70FF2AA90E120013CFBB /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		D31F71012AA90E120013CFBB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D31F71032AA90E120013CFBB /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D31F70F62AA90E120013CFBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		D347535C2AFEF01D00BF30E3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D347535B2AFEF01D00BF30E3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D35E8BBE2A9E48B10032DE9C /* Project object */;
 }

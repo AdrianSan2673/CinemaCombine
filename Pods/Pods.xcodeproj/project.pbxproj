@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03041E456C190CAA812A0532DF14644D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1A5B9D78DA084C72240896157EBB0A12 /* Pods-CarteleraMDBTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 846DB91190E8571A9A37A52E9970237B /* Pods-CarteleraMDBTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2987E36BB00E8A86E3D82DFFDF921D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		339A5CDB0024E29E016ABCE339F41EB7 /* Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5645B270EBE769FD334253105A706 /* Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m */; };
+		3A307BA68851DB58BCD3E72DFA3FACA4 /* Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D7F67655AD50265AA17BD949E41461 /* Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A676C5C14668F7D51D354DAECA83CA1 /* Pods-CarteleraMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E3C841F5DF90367D7A74CC1D9117FC /* Pods-CarteleraMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645E3613D366972C03FDD935560AE60E /* Pods-CarteleraMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47745A0299F508EB7723DEC4C63EC8A6 /* Pods-CarteleraMDB-dummy.m */; };
+		71DA1DFEBBF0BF48D7911D9957B83517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		90B45D81CC2839DE9ADF44EBB9752CBF /* Pods-CarteleraMDBTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E805E9D7B3BE802084A99A67283B1E5B /* Pods-CarteleraMDBTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC51A96714F9523093CC78293A9878D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B6BBA53E54D2A42FFC39A6088A42A0;
+			remoteInfo = "Pods-CarteleraMDB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D7F67655AD50265AA17BD949E41461 /* Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h"; sourceTree = "<group>"; };
+		1A0ADE9B5727837F5E2698E4A191D6AB /* Pods-CarteleraMDB-CarteleraMDBUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarteleraMDB-CarteleraMDBUITests"; path = Pods_CarteleraMDB_CarteleraMDBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406FC92DB5528977C2DBC662E24E839C /* Pods-CarteleraMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		47745A0299F508EB7723DEC4C63EC8A6 /* Pods-CarteleraMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarteleraMDB-dummy.m"; sourceTree = "<group>"; };
+		5B148D2595653CE56D3D0E2659755EB0 /* Pods-CarteleraMDB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDB-acknowledgements.plist"; sourceTree = "<group>"; };
+		682A501704A9DEB073E9DCEC4B681202 /* Pods-CarteleraMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarteleraMDB"; path = Pods_CarteleraMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70877281EDAA6586D0D8DA9D79B54B56 /* Pods-CarteleraMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71C2A260D0FD34C133C28565BDA512B3 /* Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		728DA5CB0571D4918B29974A33E22B32 /* Pods-CarteleraMDB-CarteleraMDBUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDB-CarteleraMDBUITests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C814CE5966205064C23B19F20FEB28 /* Pods-CarteleraMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDB-Info.plist"; sourceTree = "<group>"; };
+		846DB91190E8571A9A37A52E9970237B /* Pods-CarteleraMDBTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarteleraMDBTests-umbrella.h"; sourceTree = "<group>"; };
+		8D34CFE4985562A44B3D9170AF358638 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91416384FDDFCC1F55E95AC2C77C43B6 /* Pods-CarteleraMDB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarteleraMDB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9735D8CC60A83C071A6CA8900A9B4FF9 /* Pods-CarteleraMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		9CBB1913DA455FF0BDCADC668B944825 /* Pods-CarteleraMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDB.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19CFEB7F79CB1E6DCC231DB7572FCDA /* Pods-CarteleraMDBTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDBTests-Info.plist"; sourceTree = "<group>"; };
+		A470ABA8D9738FCBDB82B6C570EF8646 /* Pods-CarteleraMDBTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarteleraMDBTests.modulemap"; sourceTree = "<group>"; };
+		A6622995C5B9A83924ACB5E7A1A99981 /* Pods-CarteleraMDBTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarteleraMDBTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7FA034DF2F5D5DEFAD97BF8FD5F5BD3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B479B069C8FFADEE4683A18951AC91DF /* Pods-CarteleraMDBTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarteleraMDBTests"; path = Pods_CarteleraMDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA015385F3378E398AFE401DCEF03D96 /* Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9FD7F32846ED0AD49EEA61A6CC57864 /* Pods-CarteleraMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarteleraMDB.modulemap"; sourceTree = "<group>"; };
+		D583FA2472E81C2323438E4EC007FB06 /* Pods-CarteleraMDB-CarteleraMDBUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarteleraMDB-CarteleraMDBUITests.modulemap"; sourceTree = "<group>"; };
+		E2F5645B270EBE769FD334253105A706 /* Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m"; sourceTree = "<group>"; };
+		E805E9D7B3BE802084A99A67283B1E5B /* Pods-CarteleraMDBTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarteleraMDBTests-dummy.m"; sourceTree = "<group>"; };
+		E9E3C841F5DF90367D7A74CC1D9117FC /* Pods-CarteleraMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarteleraMDB-umbrella.h"; sourceTree = "<group>"; };
+		FC9E847E57BBB314AFE85A5CDF37780C /* Pods-CarteleraMDBTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarteleraMDBTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1994A45A90502098DAE2A40250367D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DA1DFEBBF0BF48D7911D9957B83517 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA0980B144F3E41D3C48B8139FB1CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2987E36BB00E8A86E3D82DFFDF921D6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D80C3D3DEF3D8A166195252D3172A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03041E456C190CAA812A0532DF14644D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD2DACDB6767F5752C847BF143DE7D9 /* Pods-CarteleraMDB */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD7F32846ED0AD49EEA61A6CC57864 /* Pods-CarteleraMDB.modulemap */,
+				91416384FDDFCC1F55E95AC2C77C43B6 /* Pods-CarteleraMDB-acknowledgements.markdown */,
+				5B148D2595653CE56D3D0E2659755EB0 /* Pods-CarteleraMDB-acknowledgements.plist */,
+				47745A0299F508EB7723DEC4C63EC8A6 /* Pods-CarteleraMDB-dummy.m */,
+				73C814CE5966205064C23B19F20FEB28 /* Pods-CarteleraMDB-Info.plist */,
+				E9E3C841F5DF90367D7A74CC1D9117FC /* Pods-CarteleraMDB-umbrella.h */,
+				9735D8CC60A83C071A6CA8900A9B4FF9 /* Pods-CarteleraMDB.debug.xcconfig */,
+				9CBB1913DA455FF0BDCADC668B944825 /* Pods-CarteleraMDB.release.xcconfig */,
+			);
+			name = "Pods-CarteleraMDB";
+			path = "Target Support Files/Pods-CarteleraMDB";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		740A7E371FDEA9927C70ED97ADF45F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682A501704A9DEB073E9DCEC4B681202 /* Pods-CarteleraMDB */,
+				1A0ADE9B5727837F5E2698E4A191D6AB /* Pods-CarteleraMDB-CarteleraMDBUITests */,
+				B479B069C8FFADEE4683A18951AC91DF /* Pods-CarteleraMDBTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FC6358222890A7B2B2C5BF7E675091 /* Pods-CarteleraMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				A470ABA8D9738FCBDB82B6C570EF8646 /* Pods-CarteleraMDBTests.modulemap */,
+				FC9E847E57BBB314AFE85A5CDF37780C /* Pods-CarteleraMDBTests-acknowledgements.markdown */,
+				A6622995C5B9A83924ACB5E7A1A99981 /* Pods-CarteleraMDBTests-acknowledgements.plist */,
+				E805E9D7B3BE802084A99A67283B1E5B /* Pods-CarteleraMDBTests-dummy.m */,
+				A19CFEB7F79CB1E6DCC231DB7572FCDA /* Pods-CarteleraMDBTests-Info.plist */,
+				846DB91190E8571A9A37A52E9970237B /* Pods-CarteleraMDBTests-umbrella.h */,
+				70877281EDAA6586D0D8DA9D79B54B56 /* Pods-CarteleraMDBTests.debug.xcconfig */,
+				406FC92DB5528977C2DBC662E24E839C /* Pods-CarteleraMDBTests.release.xcconfig */,
+			);
+			name = "Pods-CarteleraMDBTests";
+			path = "Target Support Files/Pods-CarteleraMDBTests";
+			sourceTree = "<group>";
+		};
+		8E647F61A06FD504DAC1866C1FFD69AF /* Pods-CarteleraMDB-CarteleraMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D583FA2472E81C2323438E4EC007FB06 /* Pods-CarteleraMDB-CarteleraMDBUITests.modulemap */,
+				BA015385F3378E398AFE401DCEF03D96 /* Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.markdown */,
+				71C2A260D0FD34C133C28565BDA512B3 /* Pods-CarteleraMDB-CarteleraMDBUITests-acknowledgements.plist */,
+				E2F5645B270EBE769FD334253105A706 /* Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m */,
+				728DA5CB0571D4918B29974A33E22B32 /* Pods-CarteleraMDB-CarteleraMDBUITests-Info.plist */,
+				14D7F67655AD50265AA17BD949E41461 /* Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h */,
+				A7FA034DF2F5D5DEFAD97BF8FD5F5BD3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */,
+				8D34CFE4985562A44B3D9170AF358638 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */,
+			);
+			name = "Pods-CarteleraMDB-CarteleraMDBUITests";
+			path = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests";
+			sourceTree = "<group>";
+		};
+		A6257F22662746F3A4D695D62EC6B49D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2DACDB6767F5752C847BF143DE7D9 /* Pods-CarteleraMDB */,
+				8E647F61A06FD504DAC1866C1FFD69AF /* Pods-CarteleraMDB-CarteleraMDBUITests */,
+				75FC6358222890A7B2B2C5BF7E675091 /* Pods-CarteleraMDBTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				740A7E371FDEA9927C70ED97ADF45F37 /* Products */,
+				A6257F22662746F3A4D695D62EC6B49D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		747173110BF0884BCEEEA47A8787CAB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A676C5C14668F7D51D354DAECA83CA1 /* Pods-CarteleraMDB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CA5F1960F0FC190AE2417BC8179402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A307BA68851DB58BCD3E72DFA3FACA4 /* Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4BE0480063390471F4A0310E060F6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5B9D78DA084C72240896157EBB0A12 /* Pods-CarteleraMDBTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24B6BBA53E54D2A42FFC39A6088A42A0 /* Pods-CarteleraMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFECCFB3986E383A9EF59A9DDB6C847 /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDB" */;
+			buildPhases = (
+				747173110BF0884BCEEEA47A8787CAB4 /* Headers */,
+				158EF819E1FA58A3767A307B8CE270E6 /* Sources */,
+				E8D80C3D3DEF3D8A166195252D3172A7 /* Frameworks */,
+				F219C8A393D59DF08FE4BA2E7BE3931F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarteleraMDB";
+			productName = Pods_CarteleraMDB;
+			productReference = 682A501704A9DEB073E9DCEC4B681202 /* Pods-CarteleraMDB */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5DEB81A045614587E0A75EBA92D2C6E /* Pods-CarteleraMDB-CarteleraMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F624D0217ED061A2D3780B39F6D89ACC /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDB-CarteleraMDBUITests" */;
+			buildPhases = (
+				B0CA5F1960F0FC190AE2417BC8179402 /* Headers */,
+				780198F503D2DE2732DA009E81B3BC9B /* Sources */,
+				ACA0980B144F3E41D3C48B8139FB1CF4 /* Frameworks */,
+				DCA3BD0CB0B441B417E5F9A85841B9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarteleraMDB-CarteleraMDBUITests";
+			productName = Pods_CarteleraMDB_CarteleraMDBUITests;
+			productReference = 1A0ADE9B5727837F5E2698E4A191D6AB /* Pods-CarteleraMDB-CarteleraMDBUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA37591B15526B9B8BDB7477CE1E4A46 /* Pods-CarteleraMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A6B6C4CE5EE3D197EFD533483CC757 /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDBTests" */;
+			buildPhases = (
+				FC4BE0480063390471F4A0310E060F6A /* Headers */,
+				69B5EC7A585E7ABA6FE91937254644C6 /* Sources */,
+				1994A45A90502098DAE2A40250367D3F /* Frameworks */,
+				84E037C826F5680DEC981CDC981020C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71A9C47D30BCE3AA18991B7F0A5E292 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarteleraMDBTests";
+			productName = Pods_CarteleraMDBTests;
+			productReference = B479B069C8FFADEE4683A18951AC91DF /* Pods-CarteleraMDBTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 740A7E371FDEA9927C70ED97ADF45F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B6BBA53E54D2A42FFC39A6088A42A0 /* Pods-CarteleraMDB */,
+				C5DEB81A045614587E0A75EBA92D2C6E /* Pods-CarteleraMDB-CarteleraMDBUITests */,
+				EA37591B15526B9B8BDB7477CE1E4A46 /* Pods-CarteleraMDBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E037C826F5680DEC981CDC981020C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA3BD0CB0B441B417E5F9A85841B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F219C8A393D59DF08FE4BA2E7BE3931F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158EF819E1FA58A3767A307B8CE270E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645E3613D366972C03FDD935560AE60E /* Pods-CarteleraMDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B5EC7A585E7ABA6FE91937254644C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B45D81CC2839DE9ADF44EBB9752CBF /* Pods-CarteleraMDBTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780198F503D2DE2732DA009E81B3BC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339A5CDB0024E29E016ABCE339F41EB7 /* Pods-CarteleraMDB-CarteleraMDBUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D71A9C47D30BCE3AA18991B7F0A5E292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CarteleraMDB";
+			target = 24B6BBA53E54D2A42FFC39A6088A42A0 /* Pods-CarteleraMDB */;
+			targetProxy = 5EC51A96714F9523093CC78293A9878D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B293B3BA36A9B740CDB1554BD94ED78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D34CFE4985562A44B3D9170AF358638 /* Pods-CarteleraMDB-CarteleraMDBUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B85095D125DB29F75F6B724D0308DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406FC92DB5528977C2DBC662E24E839C /* Pods-CarteleraMDBTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D51E34E8AA91BE2DEA309572CE7E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FA034DF2F5D5DEFAD97BF8FD5F5BD3 /* Pods-CarteleraMDB-CarteleraMDBUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDB-CarteleraMDBUITests/Pods-CarteleraMDB-CarteleraMDBUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8694760CFB6AA97CFEA32F1D03FBBBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBB1913DA455FF0BDCADC668B944825 /* Pods-CarteleraMDB.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98B2DB368A27AA187525AE36881B1266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70877281EDAA6586D0D8DA9D79B54B56 /* Pods-CarteleraMDBTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDBTests/Pods-CarteleraMDBTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB5271E155BB6487DD51B8A4EEFBED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9735D8CC60A83C071A6CA8900A9B4FF9 /* Pods-CarteleraMDB.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarteleraMDB/Pods-CarteleraMDB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A6B6C4CE5EE3D197EFD533483CC757 /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B2DB368A27AA187525AE36881B1266 /* Debug */,
+				0B85095D125DB29F75F6B724D0308DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFECCFB3986E383A9EF59A9DDB6C847 /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5271E155BB6487DD51B8A4EEFBED98 /* Debug */,
+				8694760CFB6AA97CFEA32F1D03FBBBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F624D0217ED061A2D3780B39F6D89ACC /* Build configuration list for PBXNativeTarget "Pods-CarteleraMDB-CarteleraMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D51E34E8AA91BE2DEA309572CE7E582 /* Debug */,
+				0B293B3BA36A9B740CDB1554BD94ED78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

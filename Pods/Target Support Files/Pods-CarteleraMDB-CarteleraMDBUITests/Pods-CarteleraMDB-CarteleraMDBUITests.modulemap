@@ -1,0 +1,6 @@
+framework module Pods_CarteleraMDB_CarteleraMDBUITests {
+  umbrella header "Pods-CarteleraMDB-CarteleraMDBUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
